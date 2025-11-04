@@ -56,7 +56,7 @@ fun MessageCard(msg: Message){
     Row(modifier = Modifier.padding(8.dp)) {
         Image(
             painter = painterResource(R.drawable.profile_picture),
-            contentDescription = "Contact profile picture",
+            contentDescription = "Foto de contacto",
             modifier = Modifier
                 .size(60.dp)
                 .clip(CircleShape)
