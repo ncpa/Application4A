@@ -86,7 +86,7 @@ fun MessageCard(msg: Message){
 fun PreviewMessageCard() {
     Application4ATheme {
         Surface {
-            MessageCard(msg = Message("Lexi", "Hey, take a look at Jetpack Compose, it´s great!"))
+            MessageCard(msg = Message("Lexi", "Hola, usa android es la onda!"))
         }
     }
 }
